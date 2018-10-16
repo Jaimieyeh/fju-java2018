@@ -14,6 +14,9 @@ public class Hello {
 		System.out.println(weight);
 		System.out.println(schoolYear);*/
 		
+		System.out.println(3 <= 5);
+		
+		
 		Person j = new Person(43.6f, 1.6f);
 //		j.weight = 43.6f;
 //		j.height = 1.6f;
@@ -22,12 +25,12 @@ public class Hello {
 //		Person jacob = null;
 //		jacob.hello();
 		
-		String name = "Hank";
-		int english = 70;
-		int math = 90;
-		System.out.println(name + "\t" + english + "\t" + math + "\t" + (english + math)/2 + "\t");
+		Student stu = new Student("Hank", 70, 90);
+//		stu.name = "Hank";
+//		stu.english = 70;
+//		stu.math = 90;
+		stu.print();
 		
-	
 		
 		
 		

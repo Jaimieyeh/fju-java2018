@@ -9,15 +9,13 @@ public class Person {
 			this.weight = weight;
 			this.height = height;
 		}
-		
-		
+			
 		
 		public float bmi() {
 			float bmi = weight / (height * height);
 			return bmi;
 					
 		}
-	
 
 	
 	public void hello() {
