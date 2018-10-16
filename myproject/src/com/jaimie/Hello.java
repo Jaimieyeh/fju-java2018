@@ -21,6 +21,12 @@ public class Hello {
 //		Person jaimie = new Person();
 //		Person jacob = null;
 //		jacob.hello();
+		
+		String name = "Hank";
+		int english = 70;
+		int math = 90;
+		System.out.println(name + "\t" + english + "\t" + math + "\t" + (english + math)/2 + "\t");
+		
 	
 		
 		
