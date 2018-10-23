@@ -1,8 +1,16 @@
 package com.jaimie;
 
+import java.util.Scanner;
+
 public class Hello {
 
 	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Your name");
+		String name = scanner.nextLine();
+		System.out.println(name);
+		
 		/*short age = 18;
 		int height = 160;
 		float weight = 43.6f;
