@@ -7,17 +7,22 @@ public class Hello {
 
 	public static void main(String[] args) {
 		
-		float n = 11.56f;
+		/*float n = 11.56f;
 		String nick = "jaimie";
-		System.out.printf("your age: %.2f\nyour name: %s\n", n, nick);
+		System.out.printf("your age: %.2f\nyour name: %s\n", n, nick);*/
 		
 		
 		Random random = new Random();
 		int secret = random.nextInt(100)+1;
 		System.out.println(secret);
 		
-		int a =1;
-		while(a > 0){
+		int a = secret;
+		Scanner guess = new Scanner(System.in);
+		System.out.println("please enter a number");
+		int num = guess.nextInt();
+		
+		while(a > num ){
+			System.out.println();
 			
 		}
 		
