@@ -1,10 +1,29 @@
 package com.jaimie;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Hello {
 
 	public static void main(String[] args) {
+		
+		float n = 11.56f;
+		String nick = "jaimie";
+		System.out.printf("your age: %.2f\nyour name: %s\n", n, nick);
+		
+		
+		Random random = new Random();
+		int secret = random.nextInt(100)+1;
+		System.out.println(secret);
+		
+		int a =1;
+		while(a > 0){
+			
+		}
+		
+		
+		
+	
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Your name");
@@ -39,16 +58,6 @@ public class Hello {
 //		stu.math = 90;
 		stu.print();
 		
-		
-		
-		
-		
-		
-		
-		
-				
-		
-
 	}
 
 }
