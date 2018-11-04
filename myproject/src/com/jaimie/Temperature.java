@@ -6,9 +6,10 @@ public class Temperature {
 	public Temperature(double celsius){
 		this.celsius = celsius;
 		}
-	public double celsius(){
-		double fahrenheit = celsius*(9/5.0)+32;
+	public double fahrenheit(){
+		double fahrenheit = (celsius*(9/5.0)+32);
 		return fahrenheit;
 		
 	}
+	
 }

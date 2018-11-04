@@ -9,9 +9,10 @@ public class Temp {
 		System.out.println("Please enter a temperature(Celsius):");
 		Scanner temperature = new Scanner(System.in);
 		double c = temperature.nextDouble();
-		Temperature temp = new Temperature(Celsius);
+		Temperature temp = new Temperature(c);
 		
-		System.out.println();
+		System.out.printf("%.1f C = %.1f F\n", 
+				temp.celsius, temp.fahrenheit());
 	}
-
 }
+

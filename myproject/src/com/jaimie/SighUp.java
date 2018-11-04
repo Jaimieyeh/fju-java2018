@@ -8,6 +8,17 @@ public class SighUp {
 		// TODO Auto-generated method stub
 		System.out.println("Are you 18? (y/N)");
 		Scanner scanner = new Scanner(System.in);
+		String line = scanner.nextLine();
+		boolean adult = line.equalsIgnoreCase("Y");
+		Member member = new Member(adult);
+		if (member.adult) {
+			member.startInput();
+		}else {
+			System.out.println("Bye bye~");
+		}
+	}
+}
+		
 		
 		
 		
@@ -32,6 +43,6 @@ public class SighUp {
 		
 	}
 	}*/
-}
+
 
 
